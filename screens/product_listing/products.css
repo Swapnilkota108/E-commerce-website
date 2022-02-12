@@ -27,6 +27,13 @@ aside,section{
     height: max-content;
 }
 
+.fa-heart{text-shadow: 0 0 3px #000;
+     -webkit-text-fill-color: var(--theme-color);
+     -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: var(--theme-color);
+   
+}
+
 ul-list{
     display: flex;
     flex-direction: row
@@ -34,6 +41,7 @@ ul-list{
 
 .label-radio{
     display: flex;
+    align-items: center;
     gap: 7px;
     color: var(--gray-color);
 }
