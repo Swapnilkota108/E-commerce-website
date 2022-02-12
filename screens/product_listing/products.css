@@ -1,0 +1,66 @@
+@import url("https://onlycss.netlify.app/main/main.css");
+@import url(../../main.css);
+
+:root{
+    --primary-color:var(--theme-color)
+}
+
+*{
+    color: rgba(0, 0, 0, 0.775);
+}
+
+
+body{
+    background-color: rgba(84, 84, 84, 0.136);
+}
+
+aside,section{
+    background-color: var(--white-color);
+    margin: 1rem 0 1rem 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: max-content;
+}
+
+ul-list{
+    display: flex;
+    flex-direction: row
+}
+
+.label-radio{
+    display: flex;
+    gap: 7px;
+    color: var(--gray-color);
+}
+
+hr{
+    color: var(--white-color);
+    margin: 1rem 0 1rem;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    width: max-content;
+    width: 89%;
+}
+
+.card-product{
+    width: 11rem;
+    height: max-content;
+    margin: 1rem;
+}
+    .content{
+        padding: 0.5rem;
+    }
+        .content button{
+            width: 100%;
+            margin: 0.2rem 0;
+        }
+
