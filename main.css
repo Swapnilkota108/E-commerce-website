@@ -4,6 +4,7 @@
 body, .badge{
     margin: 0;
     padding: 0;
+    background-color: #54545423;
 }
 
 :root{
