@@ -1,0 +1,71 @@
+@import url("https://onlycss.netlify.app/main/main.css");
+@import url(../../main.css);
+
+
+body, .badge{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --theme-color:#ed4f70;
+}
+
+.navbar{
+   height: 1.5rem;
+   display: flex;
+   background-color: var(--white-color);
+   border-bottom: 1px solid var(--border-color);
+   justify-content: space-between;
+   align-items: center;
+   position: sticky;
+   top: 0;
+   z-index: 10;
+}
+
+.navbar-logo{
+    color: var(--theme-color);
+}
+
+ .input-search-container{
+     border: 1px solid var(--gray-color);
+ }
+
+.btn{
+    padding: 0.2rem;
+    margin: 0;
+    background-color: var(--theme-color);
+}
+
+.ul-list{
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+
+.badge-number{
+    background-color: var(--error-color);
+}
+.drawer{
+    overflow: hidden;
+}
+
+.products-container{
+    width:98%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-self: center;
+    justify-content: center;
+}
+.main-img-container{
+    width: 100%;
+    background-size: cover;
+}
+.card-img-overlay{
+    background-color: var(--theme-color);
+}
+
+ 
+  
+
