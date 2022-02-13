@@ -1,0 +1,27 @@
+@import url("https://onlycss.netlify.app/main/main.css");
+@import url("../../main.css");
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background-color: var(--white-color);
+    border-radius: 0.5rem;
+}
+
+.form-input{
+    border: 1px solid var(--theme-color);
+}
+
+.form-text{
+    color: var(--theme-color);
+}
+
+.btn-primary{
+    background-color: var(--theme-color);
+    color: var(--white-color);
+}
