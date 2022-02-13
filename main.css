@@ -66,6 +66,10 @@ body, .badge{
     background-color: var(--theme-color);
 }
 
+.card-product{
+background-color: var(--white-color);
+}
+
  
   
 
