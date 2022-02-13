@@ -26,6 +26,4 @@ body, .container{
     position: relative;
     top: 5.3rem;
     left: 1.7rem;
-   
-    color: var(--error-color);
 }

@@ -1,5 +1,5 @@
 @import url("https://onlycss.netlify.app/main/main.css");
-@import url(../../main.css);
+@import url("../../main.css");
 
 :root{
     --primary-color:var(--theme-color)
