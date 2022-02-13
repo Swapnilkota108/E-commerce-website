@@ -9,11 +9,6 @@
     color: rgba(0, 0, 0, 0.775);
 }
 
-
-body{
-    background-color: rgba(84, 84, 84, 0.136);
-}
-
 aside,section{
     background-color: var(--white-color);
     margin: 1rem 0 1rem 1rem;
