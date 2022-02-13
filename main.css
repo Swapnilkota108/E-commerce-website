@@ -3,8 +3,22 @@
 
 body, .badge{
     margin: 0;
-    padding: 0;
+    padding: 0;   
+}
+
+*{
+    color: rgba(0, 0, 0, 0.775);
+}
+
+.body{
     background-color: #54545423;
+}
+
+.fa-heart{
+    color: var(--theme-color);
+}
+.fa-shopping-cart{
+    color: var(--gray-color);
 }
 
 :root{
@@ -64,6 +78,10 @@ body, .badge{
 }
 .card-img-overlay{
     background-color: var(--theme-color);
+}
+
+.card-product{
+background-color: var(--white-color);
 }
 
  

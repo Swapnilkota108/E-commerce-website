@@ -1,0 +1,46 @@
+@import url(../../main.css);
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quantity{
+    display: flex;
+}
+    .quantity-btn {
+        height: 1.2rem;
+        width: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 0;
+        background-color: var(--theme-color);
+        color: var(--white-color);
+    }
+    .quantity-number{
+        border: 1px solid black;
+        height: 1.2rem;
+        width: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+    .middle-section h3{
+        padding: 0 1rem;
+    }
+    .btn-fullWidth{
+        width: 80%;
+    }
+    .bill{
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .list-price{
+        display: flex;
+        justify-content: space-between;
+    }

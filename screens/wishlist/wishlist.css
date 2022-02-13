@@ -1,0 +1,29 @@
+@import url("../../main.css");
+
+body, .container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.card-product{
+    width: 11rem;
+    height: max-content;
+    margin: 1rem;
+    position: relative;
+}
+.card-product img{
+    border-bottom: 3px solid var(--theme-color);
+}
+.content{
+    padding:0 1rem;
+}
+
+.fa-heart{
+    position: relative;
+    top: 5.3rem;
+    left: 1.7rem;
+}
