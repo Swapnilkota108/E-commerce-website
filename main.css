@@ -6,10 +6,6 @@ body, .badge{
     padding: 0;   
 }
 
-body{
-    height: auto;
-}
-
 *{
     color: rgba(0, 0, 0, 0.775);
 }
