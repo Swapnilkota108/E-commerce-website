@@ -1,10 +1,14 @@
 @import url("https://onlycss.netlify.app/main/main.css");
 @import url("../../main.css");
 
+
 :root{
     --primary-color:var(--theme-color)
 }
 
+body{
+    background-color: rgba(84, 84, 84, 0.136);
+}
 
 aside,section{
     background-color: var(--white-color);
@@ -26,10 +30,10 @@ aside,section{
     height: max-content;
 }
 
-.fa-heart{
+
+.fa-heart{text-shadow: 0 0 3px #000;
      -webkit-text-fill-color: var(--theme-color);
-     -webkit-text-stroke-color: var(--theme-color);
-   
+     -webkit-text-stroke-width: 1px;
 }
 
 ul-list{
