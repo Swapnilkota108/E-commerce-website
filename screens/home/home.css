@@ -2,7 +2,7 @@
 @import url(../../main.css);
 
 
-body, .badge{
+ .badge{
     margin: 0;
     padding: 0;
 }
