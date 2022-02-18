@@ -1,7 +1,10 @@
 # E-commerce-website
 
-Hey there!!! Happy that you are here. I hope you find this documentation useful.
+Hey there!!! Welcome to my E-commerce website letsbuyy.
 
-<p> This E-commerce website includes Home page, product-listing page, Wishlist-authentication, cart-authentication, logIn page, signIn page </p>
+<p> This E-commerce website includes 
+  <li>Home page, <li>product-listing page, <li>Wishlist-authentication, <li>cart-authentication, <li>logIn page, <li>signIn page <br>
+(These are just screens and currently the app is not functional)</p>
+ 
 
 Clicking on "shop now" will redirect you to the product-listing page.  
